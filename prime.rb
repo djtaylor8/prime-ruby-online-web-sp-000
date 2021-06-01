@@ -1,7 +1,6 @@
 def prime?(num)
-  #if given negative number, return false
+  #if given 0 ornegative number, return false
   return false if num <= 0 
-  end
   #create range of numbers from 2 to one minus number
   (2..(num - 1)).each do |n|
     #if any number in this range is evenly divided, return false
